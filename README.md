@@ -1,5 +1,33 @@
-# Vue 3 + Vite
+# Тестовое задание VueJS
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Это тестовое задание на Vue 3, реализующее механику выбора вещей согласно описанию.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Описание проекта
+
+Приложение состоит из четырех блоков:
+
+- **Верхний левый блок**: Выбранные вещи пользователя (до 6 штук, в порядке выбора).
+- **Верхний правый блок**: Выбранная вещь из вещей на выбор (только 1).
+- **Нижний левый блок**: Вещи пользователя (Shoes и T-shirts).
+- **Нижний правый блок**: Вещи на выбор (Jackets и Hoodies).
+
+## Механика работы
+
+- Из нижнего правого блока можно выбрать только одну вещь, которая отображается в верхнем правом блоке.
+- Из нижнего левого блока можно выбрать до 6 вещей, которые отображаются в верхнем левом блоке в порядке выбора.
+- Дизайн не требуется, используется простая схема.
+
+## Запуск проекта
+
+```bash
+npm install
+npm run dev
+```
+
+Проект доступен по адресу: http://localhost:5173/
+
+## Репозиторий
+
+Код загружен на GitHub: [vue-test-task](https://github.com/EYKonnikov/vue-test-task)
+
+Pull Request с реализацией задачи: [PR #1](https://github.com/EYKonnikov/vue-test-task/pull/1)
